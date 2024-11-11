@@ -1,0 +1,15 @@
+lista=[12,36,83,24,98,66,3,4,6,2,57,64,48,284,38,729,456,48]
+print(lista[7])
+lista[3]=200
+lista.append(150)
+print(lista)
+lista.insert(9,65)
+print(lista)
+lista.remove(98)
+print(lista)
+lista.sort()
+print(lista)
+lista.reverse()
+print(lista)
+print(lista.count(48))
+print(lista.index(57))
